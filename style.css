@@ -1,0 +1,52 @@
+/* Style for Tic Tac Toe grid */
+body{
+    background-color: #648767;
+    text-align: center;
+}
+
+.grid{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    font-size: 8vmin;
+    color: brown;
+    border-radius: 2vmin;
+    background-color: #BFC0C0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btns{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#status {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+#resetBtn {
+    height: 8vmin;
+    width: 18vmin;
+    border-radius: 2vmin;
+    background-color: #7DC95E;
+    font-size: 3.5vmin;
+    color: black;
+    cursor: pointer;
+}
+
